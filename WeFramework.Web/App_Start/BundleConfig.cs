@@ -17,6 +17,7 @@ namespace WeFramework.Web
         {
             bundles.Add(new StyleBundle("~/styles/dashboard").Include("~/Content/dashboard.css"));
             bundles.Add(new StyleBundle("~/styles/bootstrap").Include("~/Content/bootstrap.css"));
+            //bundles.Add(new StyleBundle("~/styles/bootstrap", @"//cdn.bootcss.com/bootstrap/5.3.3/css/bootstrap.min.css"));
             bundles.Add(new StyleBundle("~/styles/adminlte").Include("~/Content/adminlte.css", "~/Content/adminlte-skins.css"));
             bundles.Add(new StyleBundle("~/styles/font-awesome", @"//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css"));
             bundles.Add(new StyleBundle("~/styles/ionicons", @"//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css"));
@@ -27,6 +28,7 @@ namespace WeFramework.Web
         {
             bundles.Add(new ScriptBundle("~/scripts/jquery", @"//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js").Include("~/Scripts/jquery-{version}.js"));
             bundles.Add(new ScriptBundle("~/scripts/bootstrap").Include("~/Scripts/bootstrap.js"));
+            //bundles.Add(new ScriptBundle("~/scripts/bootstrap", @"//cdn.bootcss.com/bootstrap/5.3.3/js/bootstrap.min.js"));
             bundles.Add(new ScriptBundle("~/scripts/adminlte").Include("~/Scripts/adminlte.js", "~/Scripts/adminlte-customize.js"));
             bundles.Add(new ScriptBundle("~/scripts/html5shiv", @"//apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"));
             bundles.Add(new ScriptBundle("~/scripts/respond", @"//apps.bdimg.com/libs/respond.js/1.4.2/respond.js").Include("~/Scripts/respond.js"));
